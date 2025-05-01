@@ -39,7 +39,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '94741185866@g.us@newsletter',
-                    newsletterName: 'NADU-MD',
+                    newsletterName: 'NADU_MD-BOT',
                     serverMessageId: 143
                 }
             }
