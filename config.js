@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "WupEjQ6J#DgSC9cPOrYroauPP1AHekVuGRX4AOFsuvFUgxTvsGQ0",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -23,7 +23,7 @@ OWNER_NAME: process.env.OWNER_NAME || "✦ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 ✦",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ✦ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗✦ 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗯𝗼𝘁✦*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/p9hyal.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/MD6fpnV8/5844.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧 IS ACTIVE AND ALIVE\n\n\nKEEP USING 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 FROM 𝗠𝗘𝗧𝗛𝗨 TECH INC⚡",
 // add alive msg here 
@@ -37,7 +37,7 @@ AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by 𝙱.𝙼.𝙱-𝚇𝙼𝙳 🚀🔥*",
+AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗💞😜*",
 // set the auto reply massage on status reply    
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
