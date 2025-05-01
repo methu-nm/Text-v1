@@ -13,7 +13,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `╭━━〔 *NADU-MD* 〕━━┈⊷
+        const status = `╭━━〔 *𝗠𝗘𝗧𝗛𝗨_𝗠𝗗* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
@@ -23,15 +23,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
-  *Hi,am nadu md alive now💝.*
+  *Hi,am 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 alive now💝.*
 
   https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M
 
-> © ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ NADU-MD`;
+> © ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/d0Z0ydhz/3589.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/MD6fpnV8/5844.jpg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -39,7 +39,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '94741185866@g.us@newsletter',
-                    newsletterName: 'NADU_MD-BOT',
+                    newsletterName: '𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧',
                     serverMessageId: 143
                 }
             }
