@@ -10,7 +10,7 @@ let baseUrl;
 })();
 
 
-const yourName = "> 𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗";
+const yourName = "> 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗";
 
 //twitter dl (x)
 cmd({
