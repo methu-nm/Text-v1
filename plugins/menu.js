@@ -2,7 +2,7 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 const os = require("os");
 const { runtime } = require('../lib/functions');
-const imageUrl = 'https://i.ibb.co/3KbLZqD/7477.jpg';
+const imageUrl = 'https://i.ibb.co/VpSgnn4y/3239.jpg';
 
 cmd({
     pattern: "menu",
@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
      *${pushname}*
 ╰━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *NADU MD ᴄᴏᴍᴍᴀɴᴅꜱ*
+      *𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 💞 ᴄᴏᴍᴍᴀɴᴅꜱ*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 *┌─〈 ${config.BOT_NAME} 〉─◆*
@@ -33,9 +33,9 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *❖│▸* *ᴘʀᴇғɪx* : *[${config.PREFIX}]*
 *❖│▸* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 *❖│▸* *ʙᴏᴛ ɴᴀᴍᴇ* : *𝐃𝐚𝐫𝐤-Nadu md*
-*❖│▸* *ᴄʀᴇᴀᴛᴏʀ* : *King Nadun*
+*❖│▸* *ᴄʀᴇᴀᴛᴏʀ* : *queen methu*
 *❖│▸* *ᴠᴇʀsɪᴏɴ* : *ᴠ.1.0.0*
-*❖│▸* *ᴍᴇɴᴜ ᴄᴍᴅ* : *ᴍᴇɴᴜ ʟɪsᴛ*
+*❖│▸* *ᴍᴇɴᴜ ᴄᴍᴅ* : *𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 ᴍᴇɴᴜ ʟɪsᴛ*
 *┬│▸*
 *│╰────────────···▸▸*
 *└──────────────···▸*
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *│╰────────────···▸▸*
 *└────────────────···▸*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
 
         const sentMsg = await conn.sendMessage(from, {
@@ -102,7 +102,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ɢɪɴɪsɪsɪʟᴀ <ᴛɪᴛᴛʟᴇ>*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '2': // SEARCH MENU
@@ -116,7 +116,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ᴡᴇᴀᴛʜᴇʀ <ᴄɪᴛʏ>*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '3': // AI MENU
@@ -127,7 +127,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ʙᴏᴛ <ᴛᴇxᴛ>*
 *╰───────────────────❒*
 
-> ©POWERED BY NADU-MD
+> ©POWERED BY 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '4': // OWNER MENU
@@ -150,7 +150,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ʀᴇꜱᴛᴀʀᴛ*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '5': // GROUP MENU
@@ -186,7 +186,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.sᴇɴᴅᴅᴍ*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '6': // INFO MENU
@@ -207,7 +207,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ꜱʏꜱᴛᴇᴍ*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '7': // CONVERTER MENU
@@ -218,7 +218,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ᴛᴛs <ᴛᴇxᴛ>*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '8': // WALLPAPERS MENU
@@ -235,7 +235,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ᴀɴɪᴍᴇɢɪʀʟ5*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '9': // WALLPAPER MENU
@@ -244,7 +244,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ɪᴍɢ*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '10': // OTHER MENU
@@ -261,7 +261,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ᴅᴇꜰɪɴᴇ*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
                         break;
                     case '11': // OTHER MENU
@@ -273,7 +273,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ᴍᴀᴛʀɪxᴠ1*
 *╰───────────────────❒*
 
-> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ Nadu md
+> ©ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧
 `;
 
                         break;
