@@ -24,7 +24,7 @@ cmd({
     const user = data.data.user;
     const stats = data.data.stats;
 
-    const profileInfo = `🎭 *𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗 TikTok Profile Stalker* 🎭
+    const profileInfo = `🎭 *𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 TikTok Profile Stalker* 🎭
 
 👤 *Username:* @${user.uniqueId}
 📛 *Nickname:* ${user.nickname}
@@ -44,7 +44,7 @@ cmd({
 
 🔗 *Profile URL:* https://www.tiktok.com/@${user.uniqueId}
 
-> 𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗
+> 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗
 `;
 
     const profileImage = { image: { url: user.avatarLarger }, caption: profileInfo };
