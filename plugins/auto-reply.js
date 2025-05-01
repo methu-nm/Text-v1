@@ -1,8 +1,7 @@
-const axios = require('axios');
-const config = require('../config');
-const fs = require('fs');
-const path = require('path');
-const {cmd , commands} = require('../command')
+const { cmd, commands } = require('../command');
+const os = require("os");
+const { runtime } = require('../lib/functions');
+
 
 
 // Replace this with your actual GitHub RAW JSON URL
