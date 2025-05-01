@@ -35,7 +35,7 @@ cmd({
     const results = data.data.slice(0, 7).sort(() => Math.random() - 0.5);
 
     for (const video of results) {
-      const message = `𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗 *TikTok Video Result*:\n\n`
+      const message = `𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 *TikTok Video Result*:\n\n`
         
         + `*• Title*: ${video.title}\n`
         
@@ -47,17 +47,14 @@ cmd({
       
         + `> > *👾 : 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
 *╭┈───────────╴╴╴•⟢*
-*│https://whatsapp.com/channel/0029Vb5pEQGHgZWVgS0JhS2e*
+*│https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M*
 *╰┈───────────╴╴╴•⟢*
 > *👾 : 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
 *╭┈───────────╴╴╴•⟢*
-*│wa.me/94702484047*
+*│wa.me/94741185866*
 *╰┈───────────╴╴╴•⟢*
-> 👾Official Website 
- ╭┈───────────╴╴╴•⟢*
-*│https://chethiyabydila.vercel.app/
-*╰┈───────────╴╴╴•⟢*
-> powerd by chethiya wedasiga / 𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗`;
+
+> powerd by 𝗻𝗮𝗱𝘂 / 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗`;
 
 
       if (video.nowm) {
