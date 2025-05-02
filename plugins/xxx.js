@@ -15,7 +15,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         const nsfwList = `
    *❦ \`NADU-MD ＳＥＸＹ ＨＵＢ.🎀🍭\`*
 
-1️⃣ *EJACULATION💦*
+1️⃣ *qoron sex🫣*
 2️⃣ *PENIS🍆*
 3️⃣ *EREC🌭*
 4️⃣ *NUDE🍜*
@@ -47,17 +47,17 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
     }
 });
 cmd({
-    pattern: "ejaculation", // Nom de la commande
+    pattern: "qoron", // Nom de la commande
     desc: "Fetch a NSFW image related to the command",
     category: "fun",
-    use: '.ejaculation',
+    use: '.qoron',
     react: "🔥",
     filename: __filename
 },
 async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // URL de l'API
-        const apiURL = `https://pikabotzapi.vercel.app/anime-nsfw/hentai-images/?apikey=anya-md&category=ejaculation`;
+        const apiURL = `https://www.qorno.com/?apikey=anya-md&category=ejaculation`;
         
         // Récupérer l'image via l'API
         const response = await axios.get(apiURL);
