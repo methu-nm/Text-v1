@@ -2,11 +2,11 @@ const { cmd } = require('../command'); // Assurez-vous que cmd est bien défini 
 const axios = require('axios');
 
 cmd({
-    pattern: "nsfw", // Nom de la commande
+    pattern: "sex", // Nom de la commande
     desc: "Display a list of NSFW options",
     category: "fun",
-    use: '.nsfw',
-    react: "🔥", // Réaction ajoutée
+    use: '.sex',
+    react: "🫣", // Réaction ajoutée
     filename: __filename
 },
 async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
