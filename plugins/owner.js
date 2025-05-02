@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "🔥", 
+    react: "🧬", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -54,7 +54,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/bmb300/NOVA-XMD-DATA/raw/refs/heads/main/KingHans/HansTz.mp3' }, // Audio URL
+            audio: { url: 'https://github.com/NADU-v/METHU-MD/blob/main/data/autovoice.json/AUD-20250427-WA0048.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
