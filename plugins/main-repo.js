@@ -188,7 +188,7 @@ ${repoData.description || 'No description provided'}
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYT36/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/NADU-v/METHU-MD/raw/refs/heads/main/data/AUD-20250304-WA0070.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
