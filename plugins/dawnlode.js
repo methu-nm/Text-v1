@@ -29,7 +29,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╭━━━〔 *𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗* 〕━━━┈⊷
+        let ytmsg = `╭━━━〔 *𝗠𝗘𝗧𝗛𝗨_𝗠𝗗* 〕━━━┈⊷
 ┇๏ *Title* -  ${yts.title}
 ┇๏ *Duration* - ${yts.timestamp}
 ┇๏ *Views* -  ${yts.views}
@@ -39,17 +39,14 @@ cmd({
 
 *😈 : 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
 *╭┈───────────╴╴╴•⟢*
-*│https://whatsapp.com/channel/0029Vb5pEQGHgZWVgS0JhS2e*
+*│https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M*
 *╰┈───────────╴╴╴•⟢*
 *😈 : 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
 *╭┈───────────╴╴╴•⟢*
-*│wa.me/94702484047*
+*│wa.me/94741185866*
 *╰┈───────────╴╴╴•⟢*
-> Official Website 
- ╭┈───────────╴╴╴•⟢*
-*│https://chethiyabydila.vercel.app/
-*╰┈───────────╴╴╴•⟢*
-> powerd by 𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗
+
+> powerd by 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗
 `;
 
         // Send video details
@@ -63,7 +60,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n> chethiya_MD `
+            caption: `> *${yts.title}*\n> 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 `
         }, { quoted: mek });
 
     } catch (e) {
@@ -99,7 +96,7 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╭━━━〔 *𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗* 〕━━━┈⊷
+    let ytmsg = `╭━━━〔 *𝗠𝗘𝗧𝗛𝗨_𝗠𝗗* 〕━━━┈⊷
 ┇๏ *Tital* -  ${yts.title}
 ┇๏ *Duration* - ${yts.timestamp}
 ┇๏ *Views* -  ${yts.views}
@@ -108,17 +105,14 @@ const yt = await ytsearch(q);
 ╰────────────────┈⊷
 *😈 : 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
 *╭┈───────────╴╴╴•⟢*
-*│https://whatsapp.com/channel/0029Vb5pEQGHgZWVgS0JhS2e*
+*│https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M*
 *╰┈───────────╴╴╴•⟢*
 *😈 : 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
 *╭┈───────────╴╴╴•⟢*
-*│wa.me/94702484047*
+*│wa.me/94741185866*
 *╰┈───────────╴╴╴•⟢*
-> Official Website 
- ╭┈───────────╴╴╴•⟢*
-*│https://chethiyabydila.vercel.app/
-*╰┈───────────╴╴╴•⟢*
->  powerd by 𝗖𝗵𝗲𝘁𝗵𝗶𝘆𝗮_𝗠𝗗
+
+>  powerd by 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗
 `;
 
 
@@ -134,7 +128,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> chethiya_MD `
+        caption: `> 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 `
     }, { quoted: mek });
 
 } catch (e) {
