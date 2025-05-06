@@ -25,6 +25,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
   *Hi,am 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 alive now💝.*
 
+*_methu md💖 whatsapp channel link_*
+👇👇
   https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M
 
 > © ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧`;
