@@ -54,7 +54,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/NADU-v/METHU-MD/blob/main/data/autovoice.json/AUD-20250427-WA0048.mp3' }, // Audio URL
+            audio: { url: 'https://raw.githubusercontent.com/NADU-v/Text-v1/refs/heads/main/my_data/autovoice.json' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
