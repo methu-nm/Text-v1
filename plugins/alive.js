@@ -25,8 +25,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
   *Hi,am 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗 alive now💝.*
 
-*_methu md💖 whatsapp channel link_*
-👇👇
   https://whatsapp.com/channel/0029Vb69IgXBqbrGn2PrF43M
 
 > © ʀᴇ-ᴄᴏᴅᴇᴅ ʙʏ 𝗠𝗘𝗧𝗛𝗨_𝗠𝗗-𝗕𝗢𝗧`;
@@ -34,13 +32,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the status message with an image
         await conn.sendMessage(from, { 
             image: { url: `https://i.ibb.co/MD6fpnV8/5844.jpg` },  // Image URL
-            }, { quoted: mek });
-          // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/zf8z97.opus' },
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
